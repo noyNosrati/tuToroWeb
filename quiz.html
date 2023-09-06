@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tuToro | Quiz</title>
+
+      <!-- icons -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!-- font-family: 'Comfortaa', cursive;
+       -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
+  
+      <!-- font-family: 'Pacifico', cursive; logo -->
+  
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+      
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="all.css">
+  <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+  <header class="container-fluid">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <a href="index.html" class="logo col-auto">
+          <img src="img_home/tinywow_logo_10304795 (1).png" alt="logo" width="45"> tuToro
+        </a>
+        <nav id="nav_open" class="col-auto d-lg-block">
+          <ul class="list-inline d-lg-flex m-0">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="our_method.html">Our method</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div id="burger_btn" class="burger col-auto d-lg-none display-6">
+          <i class="fa fa-bars h1" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container-fluid">
+    <div class="container">
+      <h1 class="p-5 text-center">Let's see what you've got!</h1>
+      <div class="quiz-container m-auto px-1 py-5 col-11 col-md-8" id="quiz">
+        <div class="quiz-header p-3">
+          <h2 id="question" class="col-12 text-center pb-5">Question Text</h2>
+          <ul class="row col-12  m-lg-auto p-3 justify-content-between align-items-center">
+            <li class="col-12 col-md-5 li">
+              <input type="radio" name="answer" id="a" class="answer">
+              <label for="a" id="a_text">Answer</label>
+            </li>
+            <li  class="col-12 col-md-5 li">
+              <input type="radio" name="answer" id="b" class="answer">
+              <label for="b" id="b_text">Answer</label>
+            </li>
+            <li  class="col-12 col-md-5 li">
+              <input type="radio" name="answer" id="c" class="answer">
+              <label for="c" id="c_text">Answer</label>
+            </li>
+            <li  class="col-12 col-md-5 li">
+              <input type="radio" name="answer" id="d" class="answer">
+              <label for="d" id="d_text">Answer</label>
+            </li>
+          </ul>
+        </div>
+        <button id="submit" class="m-auto">Submit</button>
+      </div>
+    </div>
+  </main>
+  <footer class="container-fluid">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-auto">
+                Fullstack Web Developer © Noy Nosrati 2023
+            </div>
+            <div class="col-auto">
+
+                <a href="https://www.facebook.com/groups/2078288529068941/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/howtospanish/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/learnspanish" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/watch?v=DAp_v7EH9AA" target="_blank"><i class="fa fa-youtube"
+                        aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<script src="js/burger.js"></script>
+
+  <script src="js/quiz.js"></script>
+</body>
+
+</html>

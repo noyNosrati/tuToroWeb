@@ -1,0 +1,16 @@
+body{
+    background: white;
+}
+main h3{
+    transition: 500ms;
+}
+main h3:hover{
+transform: scale(1.1);
+}
+main img{
+    transition: 500ms;
+
+}
+main img:hover{
+transform: scale(0.95);
+}

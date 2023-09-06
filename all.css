@@ -1,0 +1,131 @@
+
+h1,h2,h3,h4,h5{
+    font-family: 'Comfortaa', cursive;
+
+}
+.container{
+    max-width: 1140px;
+    padding: 12px;
+}
+header{
+    min-height: 40x;
+    background:rgba(237, 183, 163, 0.699);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+
+}
+header .logo{
+    font-family: 'Pacifico', cursive;
+        font-size: 2em;
+        color: black;
+        text-decoration: none;
+
+}
+header .logo img{
+    transition: 300ms;
+}
+header .logo img:hover{
+    transform: rotate(25deg);
+
+}
+header .row nav ul li a{
+    text-decoration: none;
+    padding: 0 12px;
+    color: black;
+    font-size: 1.25em;
+    transition: 500ms;
+    display: block;
+    font-family: 'Comfortaa', cursive;
+
+    
+
+}
+header .row nav ul li a:hover{
+    color: black;
+    transform:scale(1.1);
+    font-weight: bold;
+}
+header nav ul li a::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    transition: 500ms;
+    width: 0%;
+    margin: 0 auto;
+ }
+ header nav ul li a:hover::after{
+    background: white;
+    width: 100%;
+ }
+ header nav ul li a::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    transition: 500ms;
+    width: 0%;
+    margin: 0 auto;
+ }
+ header nav ul li a:hover::before{
+    background: white;
+    width: 100%;
+ }
+ footer{
+    min-height: 120px;
+    background: silver;
+    font-size: 1.2em;
+    color: #000000;
+}
+
+footer .row{
+    min-height: 120px;
+
+}
+footer .row a i{
+    color: #000000;
+    font-size: 2em;
+    padding: 8px;
+    transition: 200ms;
+}
+footer .row a i:hover{
+    color: whitesmoke;
+
+}
+ @media(max-width:992px){
+    header .row nav{
+        display: none;
+        position: absolute;
+        top: 85px;
+        right: 0;
+        background: whitesmoke;
+        text-align: center;
+        max-width: 200px;
+        width: 100%;
+        padding-top: 12px;
+    }
+    header nav ul a{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        min-height: 50px;
+    }
+    header nav ul li a:hover::after{
+        background:rgba(237, 183, 163);
+        width: 100%;
+     }
+    header nav ul li a:hover::before{
+        background:rgba(237, 183, 163);
+        width: 100%;
+     }
+     footer{
+        font-size: 1em;
+     }
+    }
+
+
+    

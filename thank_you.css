@@ -1,0 +1,60 @@
+body{
+    background: whitesmoke;
+}
+.container{
+    max-width: 1140px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main{
+    min-height: 500px;
+}
+
+main .row{
+}
+main .row img{
+    border: 2px solid black;
+}
+main .row  .box{
+    color: darksalmon;
+    border: 2px solid salmon ;
+    min-height: 200px;
+    box-shadow: inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0,0,0,0);
+
+    
+}
+main .row .box h1{
+    font-family: 'Pacifico', cursive;
+}
+main .row .box .lead{
+    font-size: 1.5em;
+  
+}
+main .row .box p a{
+    text-decoration: none;
+    color: salmon;
+    padding: 8px;
+}
+main .row .box p a:hover{
+    color: black;
+}
+
+main h2{
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0 black, 2px -2px 0 salmon, -2px 2px 0 #18222e, -2px -2px 0 rgb(50, 50, 50), 2px 0px 0 #424850, 0px 2px 0 #595a5b, -2px 0px 0 #0f0f0f, 0px -2px 0 #08090a;
+    font-size: 1.5em;
+}
+
+
+
+@media(max-width:768px){
+    
+    main .row .box{
+        margin-top: 4px;
+
+    }
+}  

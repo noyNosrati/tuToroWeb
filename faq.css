@@ -1,0 +1,35 @@
+body{
+  background: white;
+}
+.accordion-button{
+  background:darksalmon;
+    color: black;
+
+  }
+
+  .accordion-button[aria-expanded="true"]{
+    background: rgb(104, 100, 100);
+    color:white;
+  }
+  .accordion-collapse{
+    background:rgba(237, 183, 163);
+    color: white;
+    border-radius:0 0 24px 24px;
+    font-size: 1.1em;
+  
+  }
+  .accordion-item.m-2 {
+    border: none;
+}
+  .accordion-button::after{
+    background-image: url(img_home/tinywow_logo_10304795\ \(1\).png);
+  }
+  .accordion-button:not(.collapsed)::after{
+    background-image:url(img_faq/tinywow_logo_10304795\ \(1\).png) ;
+  }
+  .pic .pic_lg{
+    border-radius: 24px;
+  }
+  .pic .pic_sm{
+    border-radius: 50%;
+  }

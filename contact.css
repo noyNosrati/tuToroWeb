@@ -1,0 +1,52 @@
+main {
+    background: whitesmoke;
+    min-height: 100vh;
+}
+
+
+
+main .reach {
+    background-image: url(img_contact/pexels-anna-shvets-4672717.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+    box-shadow: -7px 49px 50px 50px rgba(0, 0, 0, 0.17);
+
+
+}
+
+main .strip {
+    background: rgb(236, 214, 206);
+    min-height: 980px;
+    box-shadow: -7px 49px 50px 50px rgba(0, 0, 0, 0.17);
+
+}
+
+
+main .strip label {
+padding: 8px;
+}
+main .strip input {
+    max-width: 300px;
+   
+}
+
+main .strip textarea {
+    max-width: 300px;
+}
+
+main .strip .box {
+    max-width: 300px;
+}
+main .strip .box .form-select{
+    max-width: 220px;
+    margin-top: 12px;
+}
+
+main .strip button {
+    background: black;
+    color: antiquewhite;
+    padding: 12px;
+    border-radius: 12px;
+}
+
